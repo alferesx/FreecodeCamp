@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+   <div class="wrapper">
+    <div class="wrapper-form">
+        <form id="survey-form">
+                <h1 id="title">My First Form</h1>
+                <p id="description">Por gentileza preencher as informações a baixo.</p>
+              <div class="form-group">
+              <label for="name" id="name-label" class="form-label" >Name</label>
+                <input id="name" type="text" name="name" class="form-input" required placeholder="Enter your name"/>
+              </div>  
+              <div class="form-group">
+              <label for="email" id="email-label" class="form-label">Email</label> 
+                <input id="email" type="email"  class="form-input" required placeholder="Enter your email"/>
+              </div>
+              <div class="form-group">
+              <label for="number" id="number-label" class="form-label">Age</label> 
+              <input id="number" type="number"  class="form-input" min=1 max=999 placeholder="age"/>
+              </div>
+          
+          <div class="form-group">
+            <label class="form-label">Select one of this options</label>
+            <select class="form-input" id="dropdown">
+                <option value="" disabled>Select one</option>
+                <option value="PC" selected>PC</option>
+                <option value="Console">Console</option>
+            </select>
+            </div>
+            <div class="form-group-radio">
+                <div class="form-group-radio-option">
+                  <label for="male" class="form-label">Male </label>
+                  <input id="male" type="radio" name="gender" value="male"/>
+                </div>
+                <div class="form-group-radio-option">
+                  <label for="female" class="form-label"> Female</label>
+                  <input id="female" value="female" type="radio"  name="gender"/>
+                </div>
+            </div>
+            <div class="form-group-checkbox">
+                <label class="form-label">favorite video games </label>
+                <div class="form-group-checkbox-option">
+                  <label class="form-label" for="final fantasy"> Final Fantasy </label>
+                  <input id="final fantasy"  type="checkbox" value="Final Fantasy" checked/>
+                </div>
+                <div class="form-group-checkbox-option">
+                  <label class="form-label" for="super mario"> Super Mario </label>
+                  <input  id="super mario" type="checkbox" value="Super Mario"/>
+                </div>
+                <div class="form-group-checkbox-option">
+                  <label class="form-label" for="zelda"> The Legend of zelda </label>
+                  <input  id="zelda" type="checkbox" value="The Legend of zelda"/>
+                </div>
+            </div>
+          <div class="form-group">
+            <legend>Talk about yourself</legend>
+            <textarea row=4 col=10>
+            </textarea>
+          </div>  
+          <div class="form-group">
+            <input type="submit" id="submit" value="Submit" class="btn-submit">
+          </div>
+        </form>
+    </div>
+  </div>
+</body>
+</html>
+   
+ 

@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+
+  textarea{
+    resize: none;
+    min-height:150px ;
+    padding:1rem;
+  }
+  body{
+    
+    min-height:100vh;
+    background-color: #3F51B5;
+    color:#FFFFFF;
+    font-family: "DM sans",sans-serif;
+
+   
+  }
+
+  .wrapper{
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .wrapper-form{
+    max-width: 60%;
+    margin: 1rem auto;
+  }
+
+  #survey-form{
+   
+    background-color: #303F9F;
+    
+  }
+  .form-label{
+    padding: 0.3rem 0;
+  }
+
+  .form-input{
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    border-radius: 1rem;
+  }
+  
+  #title{
+    text-align:center;
+    margin:2rem;
+    font-size:2.3rem;
+  }
+  
+  #description{
+    text-align:center;
+    margin:2rem;
+    font-size:1.3rem;
+  }
+
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   padding: 1rem;
+   width: 100%;
+  }
+  
+  .form-group-radio {
+    padding:1rem;
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .form-group-radio-option{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .form-group-radio-option .form-label{
+
+    margin-right: 0.3rem;
+
+  }
+
+  .form-group-checkbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+  }
+
+  .form-group-checkbox-option{
+    
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+  .form-group-checkbox-option .form-label{
+    margin-right: 0.3rem;
+  }
+
+  .btn-submit{
+    padding: 0.5rem;
+    background-color: #5C6BC0;
+    color: white;
+  }
+
+
+ input{
+    border-radius: 20px;
+ }
+  
+  
